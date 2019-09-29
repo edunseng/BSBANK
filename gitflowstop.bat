@@ -1,6 +1,6 @@
-git flow feature stop STEP1
-git flow feature stop STEP2
-git flow feature stop STEP3
-git flow feature stop STEP4
-git flow release stop 1.0
+git flow feature finish STEP1
+git flow feature finish STEP2
+git flow feature finish STEP3
+git flow feature finish STEP4
+git flow release finish 1.0
 
