@@ -69,7 +69,7 @@ GO
 CREATE TABLE scm_Accounts.tbl_Ref_Account_Status  
 (
         account_status_code varchar(8) NOT NULL, -- (PK),
-        account_status_description char(20),
+        account_status_description char(50),
 		CONSTRAINT Pk_tbl_Ref_Account_status_account_status_code PRIMARY KEY  ( account_status_code )
 );
 GO
@@ -78,14 +78,14 @@ GO
 CREATE TABLE scm_Accounts.tbl_Ref_Account_Types 
 ( 
 	account_type_code varchar(8) NOT NULL, -- (PK)
-	account_type_description char(20)    ,
+	account_type_description char(50)    ,
 	CONSTRAINT Pk_tbl_Ref_Account_Types_account_type_code PRIMARY KEY  ( account_type_code )
  );
  GO
  CREATE TABLE scm_Accounts.tbl_Ref_Transaction_Types 
 ( 
 	transaction_type_code varchar(8) NOT NULL, -- (PK),
-	transaction_type_description char(20)    ,
+	transaction_type_description char(50)    ,
 	CONSTRAINT Pk_tbl_Ref_Transaction_Types_transaction_type_code PRIMARY KEY  ( transaction_type_code )
  );
  GO
@@ -98,7 +98,7 @@ CREATE TABLE scm_Accounts.tbl_Accounts (
 	account_type_code    varchar(8) NOT NULL   ,-- (FK)
 	customer_id          int NOT NULL , --(FK)
 	current_balance      money    ,
-	other_details        char(250)    ,
+	other_details        char(50)    ,
 	CONSTRAINT Pk_tbl_Accounts_account_number PRIMARY KEY  ( account_number )
  );
  GO
@@ -108,9 +108,9 @@ CREATE TABLE scm_Accounts.tbl_Accounts (
 	account_number       int NOT NULL   , -- (FK)
 	merchant_id          int NOT NULL   , -- (FK)
 	transaction_type_code varchar(8) NOT NULL   , -- (FK)
-	transaction_date_time timestamp    ,
+	transaction_date_time datetime    ,
 	transaction_amount   money    ,
-	other_details        char(250)    ,
+	other_details        char(50)    ,
 	CONSTRAINT Pk_tbl_Transactions_transaction_id PRIMARY KEY  ( transaction_id )
  );
  GO
@@ -129,7 +129,7 @@ CREATE TABLE scm_Customers.tbl_Addresses
         town_city nvarchar(50) ,
         zip_postcode nvarchar(10) ,
         state_province_country nvarchar(50) ,
-        country nvarchar(30) ,
+        country nvarchar(50) ,
         other_details nvarchar(50) ,
         CONSTRAINT Pk_tbl_Addresses_address_id PRIMARY KEY  ( address_id )
 

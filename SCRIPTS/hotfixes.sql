@@ -1,4 +1,4 @@
--- ISSUE: Time inserts to tbl_Transactions.transaction_date_time throwing errors.
+-- ISSUE1: Time inserts to tbl_Transactions.transaction_date_time throwing errors.
 -- HOTFIX1. changing column type: timestamp to datetime:
 
 ALTER TABLE scm_Accounts.tbl_Transactions 
