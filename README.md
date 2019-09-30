@@ -14,7 +14,7 @@ Creates the schema and tables.
 Links filegroup location with storage location. Change <YOUR_STORAGE_PATH> in with your data storage location and execute the on the SQL Server hosting your database engine.
 </p>
 <p>
-[startgitflow.bat]</br>
+[gitflowstart.bat]</br>
 script to start Development:</br>
 STEP1: Database and Table design - Filegroups, Files, Schemas, Tables, Relations & Keys</br>
 STEP2: Query Requirements - Joins, Combinations, Operators, Functions, Views, Sub Queries, Cursors, Set Operations, Pivot, Nested Queries</br>
@@ -22,6 +22,6 @@ STEP3: Programming  - Stored Procedures, Dynamic Data Inserts, Insertions with D
 STEP4: Insert and test data</br>
 </p>
 <p>
-[stopgitflow.bat]</br>
+[gitflowstop.bat]</br>
 Script to finish development.
 </p>
