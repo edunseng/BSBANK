@@ -1,4 +1,4 @@
-# tsql_banking_project
+# BSBANK T-SQL DATABASE PROJECT
 Database Project - T-SQL Table Design and Programming.</br>
 
 <p>
