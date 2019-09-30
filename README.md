@@ -13,9 +13,9 @@
   <ol>5. <a href="https://github.com/edunseng/BSBANK/blob/master/SCRIPTS/remove_relations.sql">remove_relations.sql</a> removes relational structure.  </ol>
  </li>
  <p>
- To create the git development branches you can run these batch files:</br>
+ For development create the git flow branches using these batch files:</br>
  <li>
- <ol> 1. <a href="https://github.com/edunseng/BSBANK/blob/master/gitflowstart.bat">gitflowstart.bat</a></br>
+ <ol> 1. <a href="https://github.com/edunseng/BSBANK/blob/master/gitflowstart.bat">gitflowstart.bat</a></br> will create these feature branches:</br>
 STEP1: Database and Table design - Filegroups, Files, Schemas, Tables, Relations & Keys</br>
 STEP2: Query Requirements - Joins, Combinations, Operators, Functions, Views, Sub Queries, Cursors, Set Operations, Pivot, Nested Queries</br>
 STEP3: Programming  - Stored Procedures, Dynamic Data Inserts, Insertions with Data Security, Automated DMLs with DTC & Transactions. Lock Hints & Indexes</br>
