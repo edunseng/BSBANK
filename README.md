@@ -3,7 +3,7 @@ Database Project - T-SQL Table Design and Programming.</br>
 
 <p>
  [create_database.sql]:</br>
-Creates the databse [BSBANK]. To run the script, change <YOUR_STORAGE_PATH> in 'createsymlink_server.bat'.</br>
+Creates the databse [BSBANK]. To run the script, change YOUR_STORAGE_PATH in 'createsymlink_server.bat'.</br>
  </p>
 <p>
 [create_table_structure.sql]</br>
@@ -11,7 +11,7 @@ Creates the schema and tables.
 </p>
 <p>
 [createsymlink_server.bat]</br>
-Links filegroup location with storage location. Change <YOUR_STORAGE_PATH> in with your data storage location and execute the on the SQL Server hosting your database engine.
+Links filegroup location with storage location. Change YOUR_STORAGE_PATH in with your data storage location and execute the on the SQL Server hosting your database engine.
 </p>
 <p>
 [gitflowstart.bat]</br>
