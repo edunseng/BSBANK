@@ -1,0 +1,7 @@
+FILEGROUPS/FG_accounts/BSBANK_OLTP_FG_accounts
+FILEGROUPS/FG_branches/BSBANK_OLTP_FG_branches
+FILEGROUPS/FG_customers/BSBANK_OLTP_FG_customers
+LOGFILES/BSBANK_OLTP_log2
+BSBANK.dbs
+BSBANK.dbs.bak
+.gitignore
