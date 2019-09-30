@@ -1,5 +1,5 @@
 # BSBANK</br>
-#### <a href="https://drive.google.com/open?id=1_TdjFnFvNpeZrGT9hW1f-rDsxVuQkoE-">CLICK HERE</a> to view the database design
+#### <a href="http://drive-html-viewer.pansy.at/?state=%7B%22ids%22:%5B%221_TdjFnFvNpeZrGT9hW1f-rDsxVuQkoE-%22%5D,%22action%22:%22open%22,%22userId%22:%22109445521876338902169%22%7D">CLICK HERE TO VIEW THE DATABASE DESIGN</a>
 ### Britsh Standard Bank
 ### Database Development - T-SQL Table Design & Programming.</br>
 
