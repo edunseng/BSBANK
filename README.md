@@ -7,10 +7,10 @@
  Create from source code with following scriptfiles:
  <li>
  <ol> 1. <a href="https://github.com/edunseng/BSBANK/blob/master/SCRIPTS/createsymlink_server.bat">createsymlink_server.bat</a>  - run this batch file to create the necessary filegroup-folder structure on your database server instance. Adapt the code to your needs by replacing the placeholder.</ol>
- <ol> 2. <a href="https://github.com/edunseng/BSBANK/blob/master/SCRIPTS/create_database.sql">create_database.sql</a>. Creates the databse BSBANK.</ol>
+ <ol> 2. <a href="https://github.com/edunseng/BSBANK/blob/master/SCRIPTS/create_database.sql">create_database.sql</a> creates the databse BSBANK.</ol>
  <ol> 3. <a href="https://github.com/edunseng/BSBANK/blob/master/SCRIPTS/createsymlink_server.bat">create_table_structure.sql</a>. To create schemas and tables.  </ol>
- <ol> 4. <a href="https://github.com/edunseng/BSBANK/blob/master/SCRIPTS/create_relations.sql">create_relations.sql</a>. Creates the table relations.  </ol>
-  <ol>5. <a href="https://github.com/edunseng/BSBANK/blob/master/SCRIPTS/remove_relations.sql">remove_relations.sql</a>. Removes relational structure.  </ol>
+ <ol> 4. <a href="https://github.com/edunseng/BSBANK/blob/master/SCRIPTS/create_relations.sql">create_relations.sql</a> creates the table relations.  </ol>
+  <ol>5. <a href="https://github.com/edunseng/BSBANK/blob/master/SCRIPTS/remove_relations.sql">remove_relations.sql</a> removes relational structure.  </ol>
  </li>
  <p>
  To create the git development branches you can run these batch files:</br>
