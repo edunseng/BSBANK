@@ -24,7 +24,7 @@ STEP4: Insert and test data</br></ol>
  <ol> 2. <a href="https://github.com/edunseng/BSBANK/blob/master/gitflowstop.bat">gitflowstop.bat</a>.Script to finish development.</ol>
  </li>
  <p>
- HAPPY HACKING !
+ HAPPY HACKING!
  </p>
 
 
