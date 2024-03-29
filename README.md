@@ -25,7 +25,7 @@ To begin working with the NextGen Bank project:
 
 1. Clone the repository to your local machine:
    ```bash
-   git clone https://github.com/your-username/NextGen-Bank.git
+   git clone https://github.com/edunseng/fintech-tsql-dbdesign-practice.git
    ```
 2. Navigate to the `sql-scripts` directory to find all the SQL scripts needed for the database setup:
    ```bash
