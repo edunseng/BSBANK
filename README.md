@@ -58,6 +58,7 @@ Each script serves a specific purpose:
 - `create_table_structure.sql`: Constructs the database schema, including the creation of tables and their respective columns, data types, and constraints.
 - `create_relations.sql`: Establishes foreign key constraints to link related tables, which is crucial for maintaining data consistency across the database.
 - `remove_relations.sql`: Provides a way to remove all established relationships, useful during the restructuring or teardown of the database.
+- `createsymlink_server.bat`: Automates the creation of symbolic links for SQL Server filegroups, facilitating better organization and management of database files on the server.
 
 ## Contributing
 
@@ -68,7 +69,4 @@ Your contributions are welcome! If you have suggestions for enhancements or addi
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for more details.
 
 ---
-
-#### [View Database Design](http://drive-html-viewer.pansy.at/?state=%7B%22ids%22:%5B%221_TdjFnFvNpeZrGT9hW1f-rDsxVuQkoE-%22%5D,%22action%22:%22open%22,%22userId%22:%22109445521876338902169%22%7D)
-
-For practical experience, you can restore the database from the provided [backup file](https://github.com/your-username/NextGen-Bank/blob/master/NextGenBank.bak).
+For practical experience, you can restore the database from the provided [backup file](https://htmlpreview.github.io/?https://github.com/edunseng/fintech-tsql-dbdesign-practice/blob/master/BSBANK.bak).
