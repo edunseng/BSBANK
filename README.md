@@ -1,5 +1,6 @@
 # NextGen Bank: SQL Database Design Practice
 [![BSBANK Database Design](bsbank.png)](https://htmlpreview.github.io/?https://github.com/edunseng/fintech-tsql-dbdesign-practice/blob/main/db-digrams/BSBANK.html)
+[View BSBANK Database Diagram](https://htmlpreview.github.io/?https://github.com/edunseng/fintech-tsql-dbdesign-practice/blob/main/db-digrams/BSBANK.html)
 ## Overview
 
 NextGen Bank is a practice project designed to demonstrate the creation and management of a banking system's database using T-SQL. This repository contains all the necessary scripts and documentation for setting up, managing, and understanding the database structure.
