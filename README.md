@@ -1,31 +1,73 @@
-# BSBANK</br>
-#### <a href="http://drive-html-viewer.pansy.at/?state=%7B%22ids%22:%5B%221_TdjFnFvNpeZrGT9hW1f-rDsxVuQkoE-%22%5D,%22action%22:%22open%22,%22userId%22:%22109445521876338902169%22%7D">CLICK HERE TO VIEW THE DATABASE DESIGN</a>
-### Britsh Standard Bank
-### Database Development - T-SQL Table Design & Programming.</br>
+# NextGen Bank: SQL Database Design Practice
+[![BSBANK Database Design](bsbank.png)](https://htmlpreview.github.io/?https://github.com/edunseng/fintech-tsql-dbdesign-practice/blob/main/db-digrams/BSBANK.html)
+## Overview
 
-<p>
- To test the design, restore the <a href="https://github.com/edunseng/BSBANK/blob/master/BSBANK.bak">database </a> directly from the backup file.</br>
- Create from source code with following scriptfiles:
- <li>
- <ol> 1. <a href="https://github.com/edunseng/BSBANK/blob/master/SCRIPTS/createsymlink_server.bat">createsymlink_server.bat</a>  - run this batch file to create the necessary filegroup-folder structure on your database server instance. Adapt the code to your needs by replacing the placeholder.</ol>
- <ol> 2. <a href="https://github.com/edunseng/BSBANK/blob/master/SCRIPTS/create_database.sql">create_database.sql</a> creates the databse BSBANK.</ol>
- <ol> 3. <a href="https://github.com/edunseng/BSBANK/blob/master/SCRIPTS/create_table_structure.sql">create_table_structure.sql</a> to create schemas and tables.  </ol>
- <ol> 4. <a href="https://github.com/edunseng/BSBANK/blob/master/SCRIPTS/create_relations.sql">create_relations.sql</a> creates the table relations.  </ol>
-  <ol>5. <a href="https://github.com/edunseng/BSBANK/blob/master/SCRIPTS/remove_relations.sql">remove_relations.sql</a> removes relational structure.  </ol>
- </li>
- <p>
- For development create the git flow branches using these batch files:</br>
- <li>
- <ol> 1. <a href="https://github.com/edunseng/BSBANK/blob/master/gitflowstart.bat">gitflowstart.bat</a></br> will create these feature branches:</br>
-STEP1: Database and Table design - Filegroups, Files, Schemas, Tables, Relations & Keys</br>
-STEP2: Query Requirements - Joins, Combinations, Operators, Functions, Views, Sub Queries, Cursors, Set Operations, Pivot, Nested Queries</br>
-STEP3: Programming  - Stored Procedures, Dynamic Data Inserts, Insertions with Data Security, Automated DMLs with DTC & Transactions. Lock Hints & Indexes</br>
-STEP4: Insert and test data</br></ol>
- <ol> 2. <a href="https://github.com/edunseng/BSBANK/blob/master/gitflowstop.bat">gitflowstop.bat</a>.Script to finish development.</ol>
- </li>
- <p>
- HAPPY HACKING!
- </p>
+NextGen Bank is a practice project designed to demonstrate the creation and management of a banking system's database using T-SQL. This repository contains all the necessary scripts and documentation for setting up, managing, and understanding the database structure.
 
+## Table of Contents
 
+- [Introduction](#introduction)
+- [Getting Started](#getting-started)
+- [Features](#features)
+- [Directory Structure](#directory-structure)
+- [Database Creation](#database-creation)
+- [Contributing](#contributing)
+- [License](#license)
 
+## Introduction
+
+The NextGen Bank project simulates a banking application's backend database. It provides a hands-on approach to learning database design principles, T-SQL scripting, and SQL Server features.
+
+## Getting Started
+
+To begin working with the NextGen Bank project:
+
+1. Clone the repository to your local machine:
+   ```bash
+   git clone https://github.com/your-username/NextGen-Bank.git
+   ```
+2. Navigate to the `sql-scripts` directory to find all the SQL scripts needed for the database setup:
+   ```bash
+   cd NextGen-Bank/sql-scripts/
+   ```
+
+## Features
+
+- Comprehensive SQL scripts for database creation and schema definition.
+- Detailed reports on test data loading processes.
+- Visual diagrams representing the database architecture.
+
+## Directory Structure
+
+- `db-diagrams/`: Contains visual representations of the database structure, such as ER diagrams or schema layouts.
+- `load-reports/`: Includes reports detailing the volume and results of test data loaded into the database.
+- `sql-scripts/`: Holds SQL scripts for creating the database, tables, relationships, and other structural components.
+
+## Database Creation
+
+To create the NextGen Bank database, follow these steps:
+
+1. Run `create_database.sql` to initialize the database with the necessary settings and filegroups.
+2. Execute `create_table_structure.sql` to create the database schemas, tables, and associated structures.
+3. Use `create_relations.sql` to define the relationships between tables, ensuring referential integrity and enabling complex queries.
+
+Each script serves a specific purpose:
+
+- `create_database.sql`: Sets up the initial database, defining its name, settings, and filegroup configurations.
+- `create_table_structure.sql`: Constructs the database schema, including the creation of tables and their respective columns, data types, and constraints.
+- `create_relations.sql`: Establishes foreign key constraints to link related tables, which is crucial for maintaining data consistency across the database.
+- `remove_relations.sql`: Provides a way to remove all established relationships, useful during the restructuring or teardown of the database.
+
+## Contributing
+
+Your contributions are welcome! If you have suggestions for enhancements or additional features, please fork the repository, make your changes, and submit a pull request.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for more details.
+
+---
+
+#### [View Database Design](http://drive-html-viewer.pansy.at/?state=%7B%22ids%22:%5B%221_TdjFnFvNpeZrGT9hW1f-rDsxVuQkoE-%22%5D,%22action%22:%22open%22,%22userId%22:%22109445521876338902169%22%7D)
+
+For practical experience, you can restore the database from the provided [backup file](https://github.com/your-username/NextGen-Bank/blob/master/NextGenBank.bak).
