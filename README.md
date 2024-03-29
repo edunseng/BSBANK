@@ -66,7 +66,6 @@ Your contributions are welcome! If you have suggestions for enhancements or addi
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for more details.
-
+This project is licensed under the MIT License.
 ---
 For practical experience, you can restore the database from the provided [backup file](https://github.com/edunseng/fintech-tsql-dbdesign-practice/blob/main/BSBANK.bak).
